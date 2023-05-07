@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+.cabecera {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 80px;
+}
+.contenedor {
+text-align: center;
+border: 2px black solid;
+width: 91%;
+height: 350px;
+margin-left: 50px;
+margin-right: 50px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+padding: 20px;
+margin-top: 25px;
+}
+.pie {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: black;
+color: white;
+padding: 20px;
+box-sizing: border-box;
+height: 80px;
+text-align: center;
+}
+.logotipo {
+    margin-top: 90px;
+    display: block;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.izquierda {
+    display: inline-block;
+    border: 2px solid #00ddff;
+    box-shadow: 5px 5px 5px orchid;
+    width: 448px;
+    height: 350px;
+  } 
+.centro {
+    display: inline-block;
+    border: 2px solid #00ddff;
+    box-shadow: 5px 5px 5px orchid;
+    width: 448px;
+    height: 350px;
+  }
+.derecha {
+    display: inline-block;
+    border: 2px solid #00ddff;
+    box-shadow: 5px 5px 5px orchid;
+    width: 448px;
+    height: 350px;
+  }
+  .tabla1 {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 225px;
+    text-align: center;
+  }
+  .coche1 {
+    margin-top: 100px;
+    margin-left: 10px;
+    float:left ; 
+  }
+  .coche2 {
+    margin-top: 100px;
+    margin-left: 10px;
+    float:left ; 
+  }
+  .coche3 {
+    margin-top: 100px;
+    margin-left: 10px;
+    float:left ; 
+  }
