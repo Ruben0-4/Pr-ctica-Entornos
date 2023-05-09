@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    background: lightgrey;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      text-align: justify;
+  }
+  h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+  }
+  #cabecera {
+    background: black;
+    height: 90px;
+    background-image: url(https://rpart.riotgames.com/assets/img/RIOT_PairedLogo_Red_750px.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  #cabecera a {
+    color: white;
+  }
+  nav {
+    text-align: right;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 95px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 0 15px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background: #de2f2b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  .pie {
+    background: black;
+    height: 55px;
+    color: white;
+    text-align: end;
+  }
+  .pie ul {
+    margin: 5px;
+    padding: 15px;
+  }
+  .contenido {
+    background: white;
+    width: 90%;
+    max-width: 3000px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 8px;
+  }
+  .imagen0 {
+    width: 250px;
+    height: 100px;
+  }
+  aside div {
+    border: solid 3px #de2f2b;
+    border-radius: 30%;
+    color: red;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+  }
+  aside {
+    border-left: solid 2px black;
+    padding: 10px;
+    margin: 20px;
+    border-bottom: 2px solid black;
+    width: 300px;
+  }
+  .contenido section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    gap: 0.2em;
+  }
+.imagen1 {
+  float: left;
+  width: 700;
+  height: 500px;
+  margin-right: 100px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.imagen2 {
+  width: 500px;
+  height: 500px;
+  margin-top: 3px;
+}
+#imagenes {
+  border-top: 2px solid black;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+#video {
+  border-top: 2px solid black;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+.video1 {
+  margin-top: 3px;
+  width: 100%; 
+  height: 500px;
+}
+.imagen3 {
+  float: left;
+  width: 550px;
+  height: 400px;
+  margin-right: 80px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.imagen4 {
+  width: 500px;
+  height: 400px;
+  margin-top: 3px;
+}
+.audio {
+  border: 2px black solid;
+}

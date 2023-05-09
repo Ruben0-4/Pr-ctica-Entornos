@@ -1,0 +1,38 @@
+#titulo {
+    color: lightseagreen;
+}
+.destacado {
+    color: #FFC300 ;
+}
+#subtitulo {
+    color: blue;
+}
+.tabla caption {
+    color: blue;
+}
+.tabla, th, td{
+    border: 1px solid black;
+    text-align: left;
+    vertical-align: top;
+    border-collapse: collapse;
+    padding: 0.3em;
+}
+.especial {
+    color: #FFC300;
+}
+.col1 {
+    color: red;
+}
+td {
+    color: green;
+}
+#adicional {
+    color: #90b083;
+}
+#especial {
+    color: #FF0080;
+}
+#adicional a {
+    color: green;
+}
+
