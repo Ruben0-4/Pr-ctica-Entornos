@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    background: lightgrey;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      text-align: justify;
+      background-image: url(../img/fondoimg3.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+  h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+  }
+  #cabecera {
+    background: black;
+    height: 90px;
+    background-image: url(https://aie.edu/wp-content/uploads/2021/05/RIOT_PairedLogo_Red_750px-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+  }
+  #cabecera a {
+    color: white;
+  }
+  nav {
+    float: right;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 95px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 0 15px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background: #de2f2b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  .pie {
+    background: black;
+    height: 55px;
+    color: white;
+    text-align: end;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  .pie ul {
+    margin: 5px;
+    padding: 15px;
+  }
+  .contenido {
+    background: white;
+    width: 90%;
+    max-width: 3000px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 8px;
+  }
+  aside {
+    border-left: solid 2px black;
+    padding: 10px;
+    margin: 20px;
+    border-bottom: 2px solid black;
+  }
+  .contenido section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    gap: 0.2em;
+  }
+  aside div {
+    border: solid 3px #de2f2b;
+    border-radius: 30%;
+    color: red;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+  }
+  .imagen0 {
+    width: 250px;
+    height: 100px;
+  }
+  .contenido h2 {
+    text-align: center;
+  }
